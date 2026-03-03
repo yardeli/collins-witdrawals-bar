@@ -38,9 +38,9 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
         <div className="flex items-center justify-between border-b border-sidebar-border px-6 py-5">
           <div className="flex items-center gap-3">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary font-mono text-xs font-bold text-primary-foreground">
-              JB
+              CB
             </div>
-            <span className="text-lg font-bold tracking-tight text-sidebar-foreground">JasonBot</span>
+            <span className="text-lg font-bold tracking-tight text-sidebar-foreground">CollinBot</span>
           </div>
           <button
             onClick={onClose}
@@ -70,7 +70,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
 
         <div className="border-t border-sidebar-border px-4 py-4">
           <div className="rounded-xl border border-sidebar-border bg-sidebar-accent/50 p-4 backdrop-blur-sm">
-            <p className="text-xs font-medium text-sidebar-foreground">Your own personal Jason</p>
+            <p className="text-xs font-medium text-sidebar-foreground">Your own personal Collin</p>
             <p className="mt-1 text-xs text-muted-foreground">v1.0.0 - Open Source</p>
           </div>
         </div>

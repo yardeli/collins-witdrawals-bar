@@ -19,10 +19,10 @@ export function CTASection() {
 
           <h2 className="text-balance text-3xl font-bold tracking-tight text-foreground md:text-4xl">
             Ready to meet your new{" "}
-            <span className="text-primary">personal Jason?</span>
+            <span className="text-primary">personal Collin?</span>
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-            Get started in seconds. Install, run, and let JasonBot handle the rest.
+            Get started in seconds. Install, run, and let CollinBot handle the rest.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link
