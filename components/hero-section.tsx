@@ -46,7 +46,9 @@ export function HeroSection() {
           <ArrowRight className="h-4 w-4" />
         </Link>
         <Link
-          href="#github"
+          href="https://github.com/yardeli/YardensOpenClaw"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-7 py-3 text-sm font-semibold text-foreground backdrop-blur-sm transition-all hover:bg-secondary"
         >
           <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">

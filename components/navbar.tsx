@@ -29,7 +29,7 @@ export function Navbar({ onToggleSidebar }: { onToggleSidebar: () => void }) {
         <div className="hidden items-center gap-8 md:flex">
           <Link href="#features" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Features</Link>
           <Link href="#install" className="text-sm text-muted-foreground transition-colors hover:text-foreground">Install</Link>
-          <Link href="#github" className="text-sm text-muted-foreground transition-colors hover:text-foreground">GitHub</Link>
+          <Link href="https://github.com/yardeli/YardensOpenClaw" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground transition-colors hover:text-foreground">GitHub</Link>
         </div>
 
         <div className="hidden md:block">
@@ -56,7 +56,7 @@ export function Navbar({ onToggleSidebar }: { onToggleSidebar: () => void }) {
           <div className="flex flex-col gap-4 px-6 py-6">
             <Link href="#features" className="text-sm text-muted-foreground transition-colors hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>Features</Link>
             <Link href="#install" className="text-sm text-muted-foreground transition-colors hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>Install</Link>
-            <Link href="#github" className="text-sm text-muted-foreground transition-colors hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>GitHub</Link>
+            <Link href="https://github.com/yardeli/YardensOpenClaw" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground transition-colors hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>GitHub</Link>
             <Link
               href="#get-started"
               className="inline-flex w-fit items-center gap-2 rounded-full bg-primary px-5 py-2 text-sm font-medium text-primary-foreground"
