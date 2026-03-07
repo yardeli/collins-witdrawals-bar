@@ -3,33 +3,33 @@ import { Zap, Shield, Terminal, Globe, Cpu, Code2 } from "lucide-react"
 const features = [
   {
     icon: Zap,
-    title: "Lightning Fast",
-    description: "Execute tasks in milliseconds with our optimized AI engine, built for speed.",
+    title: "Deploy in Minutes",
+    description: "No infrastructure to manage. Your AI assistant is live in 5 minutes flat.",
   },
   {
     icon: Shield,
-    title: "Privacy First",
-    description: "Everything runs locally on your machine. Your data never leaves your control.",
-  },
-  {
-    icon: Terminal,
-    title: "CLI Native",
-    description: "Built for the terminal. Integrates seamlessly into your existing development workflow.",
+    title: "Your Own Instance",
+    description: "Dedicated, isolated infrastructure. Your conversations and data stay completely private.",
   },
   {
     icon: Globe,
-    title: "Open Source",
-    description: "Fully transparent, community-driven, and free to use under the MIT license.",
+    title: "Connect Any App",
+    description: "Telegram, WhatsApp, Discord, Slack. Chat through apps you already use.",
   },
   {
     icon: Cpu,
-    title: "Zero API Costs",
-    description: "No tokens, no subscriptions. Run unlimited tasks without paying a cent.",
+    title: "24/7 Monitoring",
+    description: "We monitor your instance around the clock. It's always available, always ready.",
   },
   {
     icon: Code2,
-    title: "Extensible",
-    description: "Build custom plugins and extend ClawCare to fit your unique use case.",
+    title: "Zero Maintenance",
+    description: "We handle updates, monitoring, and technical upkeep. You focus on results.",
+  },
+  {
+    icon: Terminal,
+    title: "Full Control",
+    description: "Use your own Anthropic API key. Full control over your AI usage and costs.",
   },
 ]
 
@@ -43,7 +43,7 @@ export function FeaturesSection() {
             <span className="text-primary">nothing you don&apos;t.</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            ClawCare is built to be your go-to AI agent. Fast, private, and free forever.
+            Managed OpenClaw hosting for teams and individuals. Deploy in minutes. $15/month.
           </p>
         </div>
 

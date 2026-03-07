@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" });
 
 export const metadata: Metadata = {
-  title: 'ClawCare - Your Own Personal AI Assistant',
-  description: 'Your AI agent that actually does things. Open-source, runs on your machine, zero API costs.',
+  title: 'ClawCare - Managed OpenClaw Hosting',
+  description: 'Deploy your OpenClaw AI assistant in minutes. $15/month. Fully managed hosting for Telegram, WhatsApp, Discord, Slack.',
 }
 
 export const viewport: Viewport = {

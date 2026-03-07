@@ -16,19 +16,19 @@ export function HeroSection() {
       {/* Badge */}
       <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-4 py-1.5 backdrop-blur-sm">
         <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
-        <span className="text-sm text-muted-foreground">Your own personal ClawCare</span>
+        <span className="text-sm text-muted-foreground">🚀 Deploy OpenClaw in Minutes • Only $15</span>
       </div>
 
       {/* Heading */}
       <h1 className="max-w-4xl text-balance text-5xl font-bold leading-tight tracking-tight text-foreground md:text-7xl">
-        Your AI agent that{" "}
-        <span className="text-primary">actually does things.</span>
+        Deploy your OpenClaw AI agent{" "}
+        <span className="text-primary">in minutes, not days.</span>
       </h1>
 
       {/* Subtitle */}
       <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
-        Open-source. Runs on your machine. Powered by AI.{" "}
-        <span className="font-semibold text-foreground">Zero API costs.</span>
+        Get your fully managed AI assistant running on Telegram, WhatsApp, Discord, or Slack.{" "}
+        <span className="font-semibold text-foreground">$15/month. No infrastructure. No headaches.</span>
       </p>
 
       {/* Terminal block */}
