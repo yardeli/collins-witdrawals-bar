@@ -16,7 +16,7 @@ export function HeroSection() {
       {/* Badge */}
       <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-4 py-1.5 backdrop-blur-sm">
         <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
-        <span className="text-sm text-muted-foreground">Your own personal Collin</span>
+        <span className="text-sm text-muted-foreground">Your own personal ClawCare</span>
       </div>
 
       {/* Heading */}
@@ -74,8 +74,8 @@ function TerminalBlock() {
 
       {/* Commands */}
       <div className="flex flex-col gap-3 px-5 py-4">
-        <TerminalLine command="npm install -g collinbot" />
-        <TerminalLine command="collinbot start" />
+        <TerminalLine command="npm install -g clawcare" />
+        <TerminalLine command="clawcare start" />
       </div>
     </div>
   )

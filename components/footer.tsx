@@ -6,9 +6,9 @@ export function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 md:flex-row">
         <div className="flex items-center gap-3">
           <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary font-mono text-xs font-bold text-primary-foreground">
-            CB
+            CC
           </div>
-          <span className="text-sm font-semibold text-foreground">CollinBot</span>
+          <span className="text-sm font-semibold text-foreground">ClawCare</span>
         </div>
         <div className="flex items-center gap-8">
           <Link href="#features" className="text-xs text-muted-foreground transition-colors hover:text-foreground">Features</Link>
@@ -19,7 +19,7 @@ export function Footer() {
         <p className="text-xs text-muted-foreground">
           {"Built with "}
           <span className="text-primary">{"<3"}</span>
-          {" by the CollinBot community."}
+          {" by the ClawCare community."}
         </p>
       </div>
     </footer>

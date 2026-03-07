@@ -29,7 +29,7 @@ const features = [
   {
     icon: Code2,
     title: "Extensible",
-    description: "Build custom plugins and extend CollinBot to fit your unique use case.",
+    description: "Build custom plugins and extend ClawCare to fit your unique use case.",
   },
 ]
 
@@ -43,7 +43,7 @@ export function FeaturesSection() {
             <span className="text-primary">nothing you don&apos;t.</span>
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            CollinBot is built to be your go-to AI agent. Fast, private, and free forever.
+            ClawCare is built to be your go-to AI agent. Fast, private, and free forever.
           </p>
         </div>
 

@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" });
 
 export const metadata: Metadata = {
-  title: 'CollinBot - Your Own Personal Collin',
+  title: 'ClawCare - Your Own Personal AI Assistant',
   description: 'Your AI agent that actually does things. Open-source, runs on your machine, zero API costs.',
 }
 

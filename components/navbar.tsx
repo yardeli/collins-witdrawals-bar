@@ -20,9 +20,9 @@ export function Navbar({ onToggleSidebar }: { onToggleSidebar: () => void }) {
           </button>
           <Link href="/" className="flex items-center gap-3">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary font-mono text-xs font-bold text-primary-foreground">
-              CB
+              CC
             </div>
-            <span className="text-lg font-bold tracking-tight text-foreground">CollinBot</span>
+            <span className="text-lg font-bold tracking-tight text-foreground">ClawCare</span>
           </Link>
         </div>
 
