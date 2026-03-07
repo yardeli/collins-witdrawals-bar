@@ -34,7 +34,7 @@ export function Navbar({ onToggleSidebar }: { onToggleSidebar: () => void }) {
 
         <div className="hidden md:block">
           <Link
-            href="#get-started"
+            href="/get-started"
             className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2 text-sm font-medium text-primary-foreground transition-all hover:brightness-110"
           >
             Get Started
@@ -58,7 +58,7 @@ export function Navbar({ onToggleSidebar }: { onToggleSidebar: () => void }) {
             <Link href="#install" className="text-sm text-muted-foreground transition-colors hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>Install</Link>
             <Link href="https://github.com/yardeli/YardensOpenClaw" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground transition-colors hover:text-foreground" onClick={() => setMobileMenuOpen(false)}>GitHub</Link>
             <Link
-              href="#get-started"
+              href="/get-started"
               className="inline-flex w-fit items-center gap-2 rounded-full bg-primary px-5 py-2 text-sm font-medium text-primary-foreground"
               onClick={() => setMobileMenuOpen(false)}
             >

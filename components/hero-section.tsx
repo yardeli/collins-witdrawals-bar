@@ -39,7 +39,7 @@ export function HeroSection() {
       {/* CTAs */}
       <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
         <Link
-          href="#get-started"
+          href="/get-started"
           className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-primary-foreground transition-all hover:brightness-110 hover:shadow-[0_0_24px_rgba(228,0,43,0.3)]"
         >
           Get Started
